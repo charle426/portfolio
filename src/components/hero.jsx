@@ -25,7 +25,7 @@ export default function Home({ setPageNav }) {
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 1, type: "string" }}
         className="w-full relative z-50"
-   >
+      >
         <div>
           <h1 className="text-[2.5rem] md:text-[3.5rem]  font-semibold ">
             <span className="animate-bounce">
@@ -34,11 +34,11 @@ export default function Home({ setPageNav }) {
             Am Akachukwu Charles
           </h1>
           <p className="text-blue-600 text-[12px]">Akachi for short 😉</p>
-          <h3 className="text-[3rem] ">Am a Developer</h3>
+          <h3 className="text-[3rem] ">Am a Software Developer</h3>
         </div>
 
         <div className="flex items-center gap-3">
-          <a href="#">
+          <a href="https://twitter.com/charles_akachi">
             <div className="rounded-full w-[40px] h-[40px] text-[22px] flex items-center justify-center bg-blue-600 text-white">
               <FontAwesomeIcon icon={faTwitter} />
             </div>

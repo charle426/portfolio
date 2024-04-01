@@ -113,7 +113,7 @@ export default function About({ setPageNav }) {
                 />
                 <div className="flex gap-2">
                   <h4 className="font-bold">Degree:</h4>
-                  <p>Masters</p>
+                  <p>None</p>
                 </div>
               </li>
             </ul>

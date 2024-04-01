@@ -1,6 +1,7 @@
 import frontendCert from "../assets/frontend-cert.png"
 import fullstack from "../assets/fullstack.png"
 import codathon from "../assets/codathon.png"
+// import {motion} from "framer-motion"
 export default function Cert() {
     return (
       <section>
