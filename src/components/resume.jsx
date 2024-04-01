@@ -2,7 +2,7 @@ import {motion} from "framer-motion"
 import Cert from "./cert";
 export default function Resume({ setPageNav }) {
   return (
-      <>
+    <>
       <motion.section
         id="resume"
         onViewportEnter={() => setPageNav("resume")}
@@ -110,9 +110,18 @@ export default function Resume({ setPageNav }) {
                     </p>
                   </div>
                   <ul className="list-disc list-outside p-3 max-w-[500px] flex flex-col gap-3">
-                    <li>Lead engineer in development of stove website, Stove a company that specializes in freight and delivery of gasoline products including a home refill</li>
-                    <li>redesigned nairaMe website into a better appealing one</li>
-                    <li>created a crypto website to  help advertize and enlighten people more about crypto trading and cryptocurrency</li>
+                    <li>
+                      Lead engineer in development of stove website, Stove a
+                      company that specializes in freight and delivery of
+                      gasoline products including a home refill
+                    </li>
+                    <li>
+                      redesigned nairaMe website into a better appealing one
+                    </li>
+                    <li>
+                      created a crypto website to help advertize and enlighten
+                      people more about crypto trading and cryptocurrency
+                    </li>
                   </ul>
                 </div>
                 <div className="resume-info relative">
@@ -121,19 +130,20 @@ export default function Resume({ setPageNav }) {
                       Webdeves Codathon
                     </p>
                     <p className="text-[15px] mb-5 font-semibold leading-none">
-                       November 2023
+                      November 2023
                     </p>
                   </div>
                   <p className="max-w-[350px] mb-4">
-                    Won a reward for winning a codaton challenge of coding the best ui in a limited time
+                    • Won a reward for winning a codaton challenge for building
+                    a scalable and secure web application in a limited time
                   </p>
                 </div>
-               </div>
+              </div>
             </div>
           </div>
         </div>
       </motion.section>
-      <Cert/>
-      </>
-    );
+      <Cert />
+    </>
+  );
 }

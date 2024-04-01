@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import userme from "../assets/userme.png";
+import aboutme from "../assets/about-me.png";
 import Skills from "./skills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,7 @@ export default function About({ setPageNav }) {
       </div>
       <div className="w-full flex md:flex-row flex-col item-center justify-center sm:items-start mb-10 gap-5">
         <div>
-          <img src={userme} alt="" className="max-w-[400px]" />
+          <img src={aboutme} alt="" className="max-w-[400px]" />
         </div>
         <div>
           <h3 className="text-[2rem] md:text-[2.8rem]">Frontend Developer</h3>

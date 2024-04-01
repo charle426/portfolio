@@ -58,7 +58,7 @@ export default function Home({ setPageNav }) {
               <FontAwesomeIcon icon={faTelegram} />
             </div>
           </a>
-          <a href="#">
+          <a href="www.linkedin.com/in/uzoma-charles-664696281">
             <div className="rounded-full w-[40px] h-[40px] text-[22px] flex items-center justify-center bg-blue-600 text-white">
               <FontAwesomeIcon icon={faLinkedin} />
             </div>
