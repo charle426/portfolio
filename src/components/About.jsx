@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutme from "../assets/about-me.png";
+import aboutme from "../assets/about-me.jpg";
 import Skills from "./skills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -20,10 +20,23 @@ export default function About({ setPageNav }) {
         </div>
       </div>
       <div className="w-full flex md:flex-row flex-col item-center justify-center sm:items-start mb-10 gap-5">
-        <div>
-          <img src={aboutme} alt="" className="max-w-[400px]" />
+        <div className="w-full max-w-[300px] justify-center flex items-center">
+          <motion.img
+            initial={{ width: "50px", height: "50px" }}
+            whileInView={{ width: "100%", height: "100%" }}
+            transition={{ type: "string", duration: "0.8" }}
+            viewport={{ once: true }}
+            src={aboutme}
+            alt=""
+            className="w-full rounded-full relative z-10"
+          />
         </div>
-        <div>
+        <motion.div
+          initial={{ x: "-300px" }}
+          whileInView={{ x: "0" }}
+          transition={{ type: "string", duration: "0.5", delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <h3 className="text-[2rem] md:text-[2.8rem]">Frontend Developer</h3>
           <p className="max-w-[600px]">
             Started my tech journey early 2023 learnt a lot from very good
@@ -118,7 +131,7 @@ export default function About({ setPageNav }) {
               </li>
             </ul>
           </div>
-        </div>
+        </motion.div>
       </div>
       <Skills />
     </motion.section>
